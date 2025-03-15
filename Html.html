@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>game</title>
+  <style>
+  body{
+    text-align: center;
+    padding: 100px;
+  }
+  button{
+    margin: auto;
+    padding: 15px;
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+    box shadow: 15px 50px 20px;
+    border-radius: 15px;
+  }
+  h1{
+    text-align: center;
+  }
+  .greentext{
+    color: lightgreen;
+  }
+  .redtext{
+    color: red;
+  }
+  #p{
+    color: aqua;}
+  #c{
+    color: red;}
+  </style>
+</head>
+<body>
+  <h1>
+    Rock paper scissors game
+  </h1>
+  <button onclick="playgame('rock')">ROCK</button>
+  <button onclick="playgame('paper')">PAPER</button>
+  <button onclick="playgame('scissors')">SCISSORS</button>
+ 
+  <h2 id="player"></h2>
+  <h2 id="computer"></h2>
+  <h1 id="res"></h1>
+  <h2 id="p">Player wins:</h2>
+  <h2 id="c">Computer wins:</h2>
+  <script src="rock.js"></script>
+</body>
+</html>
