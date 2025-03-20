@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+</head>
+<style>
+#weather{
+  text-align: center;
+  margin-bottom:15px;
+  color:red;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#well{
+  text-align: center;
+  margin-bottom:15px;
+}
+
+#hi{
+  border-radius:10px;
+  background-color: lightgreen;
+  text-align: center;
+  background: linear-gradient(280deg, red, lightblue);
+  padding: 20px;
+  box-shadow: 20px 5px 5px;
+  margin: auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  
+  
+}
+
+#text{
+  border-radius:10px;padding:10px;
+}
+#submit{
+  border-radius:10px;
+  padding:5px;
+  font-size:15px;
+  background-color:lightblue;
+  color:white;
+}
+</style>
+<body>
+  <h1 id="weather">
+    Weather 
+  </h1>
+  <div id="well">
+  <label for="text" class="well">Enter Your City:</label>
+  <input type="text" id="text" placeholder="enter the city">
+  <button id="submit">Submit</button></div>
+  <form id="hi">
+  <h2 id="cel">°</h2>
+  <h3 id="hum">Humidity</h3>
+  <h3 id="wind">Wind speed</h3>
+  </form>
+ 
+  <script src="weather.js"></script>
+  
+</body>
+</html>
